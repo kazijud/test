@@ -1,1 +1,4 @@
-select * from abc;
+WITH abc_test AS (
+	select * from abc;
+)
+select * from abc_test;
