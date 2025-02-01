@@ -3,7 +3,9 @@
 WITH abc_test AS (
 	select * from abc;
 )
-select * from abc_test;
+select * from abc_test
+order by 1;
 
 
--- just checking if how branching and merging works in github
+-- just checking if how branching and merging works in GitHub
+
